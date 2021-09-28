@@ -1,0 +1,27 @@
+// position实现水平垂直居中
+.center(@top:50%,@left:50%,@horizontal:-50%,@vertical:-50%){
+    position:absolute;
+    top:@top;
+    left:@left;
+    transform: translate(@horizontal,@vertical);
+}
+//行内元素水平居中
+.txtCenter(){
+    text-align: center;
+}
+.btn(){
+    font-size: 18px;
+    color:#fff;
+    background-color:#2299EE;
+    cursor: pointer;
+}
+.clearfix(){
+    content: '';
+    clear: both;
+    display: block;
+    font-size: 0;
+    width:0;
+    height:0;
+    overflow: hidden;
+    visibility: hidden;
+}

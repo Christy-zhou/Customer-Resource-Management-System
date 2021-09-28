@@ -1,0 +1,60 @@
+html,
+body,
+main,
+table {
+  width: 100%;
+}
+header {
+  display: flex;
+  height: 50px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px  20px;
+}
+.delete,
+.select {
+  text-align: center;
+  margin: 0px 10px;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+}
+.delete select,
+.select select {
+  width: inherit;
+  height: inherit;
+  border: none;
+}
+.delete {
+  background-color: #eee;
+  cursor: pointer;
+}
+.search {
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+}
+.search .ipt {
+  border: 1px solid #ccc;
+}
+table td,
+th {
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+tr {
+  border-bottom: 1px solid #ccc;
+}
+.firstline {
+  background-color: #eee;
+}
+.operate {
+  margin: 0 4px;
+}
+.operate a {
+  color: #29E;
+}

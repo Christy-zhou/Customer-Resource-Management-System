@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.min.css">
+    <link rel="stylesheet" href="../css/userlist.css">
+</head>
+<body>
+    <header>
+        <div></div>
+        <div class="delete">
+            <span>批量删除</span>
+        </div>
+        <div class="select">
+            <select class="department">
+                <option value="0">全部</option>
+            </select>
+        </div>
+        <di class="search">
+            <input type="text" placeholder="按姓名/手机号/邮箱模糊查找" class="search ipt searchbox">
+        </di>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr class="firstline">
+                    <th><input type="checkbox" class="checkall"></th>
+                    <th>姓名</th>
+                    <th><span>性别</span></th>
+                    <th><span>部门</span></th>
+                    <th><span>职务</span></th>
+                    <th><span>邮箱</span></th>
+                    <th><span>电话</span></th>
+                    <th><span>描述</span></th>
+                    <th><span>操作</span></th>
+                </tr>
+            </thead>
+            <tbody  class="container">
+                <!-- <tr>
+                    <td><input type="checkbox"></td>
+                    <td>周晨滟</td>
+                    <td>男</td>
+                    <td>总裁办AAA</td>
+                    <td>管理员</td>
+                    <td>zhouxiaotian@163.com </td>
+                    <td>18796010729</td>
+                    <td>珠峰培训最高管理员账户</td>
+                    <td>
+                        <span class="operate"><a href="javascript:;">编辑</a></span>
+                        <span class="operate"><a href="javascript:;">删除</a></span>
+                        <span class="operate"><a href="javascript:;">重置密码</a></span>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </main>
+</body>
+<script src="../js/axios.js"></script>
+<script src="../js/axios.min.js"></script>
+<script src="../js/axios.default.js"></script>
+<script src="../js/tool.js"></script>
+<script src="../js/qs.js"></script>
+<script src="../js/userlist.js"></script>
+</html>

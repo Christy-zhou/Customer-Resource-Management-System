@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/useradd.css">
+</head>
+<body>
+    <div>
+        <div class="line">
+            <span class="intro">用户名</span>
+            <input type="text" class="ipt username">
+            <span class="username-warning"></span>
+        </div>
+        <div class="line">
+            <span class="intro">性别</span>
+            <input type="radio" name="sex"class="usersex-nan" id="nan" checked><label for="nan">男</label>
+            <input type="radio" name="sex" class="usersex-nv" id="nv"><label for="nv">女</label>
+        </div>
+        <div class="line">
+            <span class="intro">邮箱</span>
+            <input type="email" class="ipt usermail">
+            <span class="usermail-warning"></span>
+        </div>
+        <div class="line">
+            <span class="intro">电话</span>
+            <input type="text" class="ipt userphone">
+            <span class="userphone-warning"></span>
+        </div>
+        <div class="line">
+            <span class="intro">部门</span>
+            <select class="department ipt">
+                <!-- <option>总裁办</option>
+                <option>销售部</option>
+                <option>后勤部</option> -->
+            </select>
+        </div>
+        <div class="line">
+            <span class="intro">职务</span>
+            <select class="job ipt">
+                <!-- <option>管理员</option>
+                <option>销售部经理</option>
+                <option>销售部员工</option>
+                <option>后勤部经理</option>
+                <option>后勤部员工</option> -->
+            </select>
+        </div>
+        <div class="line">
+            <span class="intro userintro">自我介绍</span>
+            <textarea cols="30" rows="10" class="txtarea"></textarea>
+        </div>
+        <div class="line">
+            <button type="button" class="ipt btn">提交</button>
+            <!-- <input type="button"  value="提交"> -->
+        </div>
+    <div>
+</body>
+<script src="../js/axios.js"></script>
+<script src="../js/axios.min.js"></script>
+<script src="../js/axios.default.js"></script>
+<script src="../js/tool.js"></script>
+<script src="../js/qs.js"></script>
+<script src="../js/useradd.js"></script>
+</html>

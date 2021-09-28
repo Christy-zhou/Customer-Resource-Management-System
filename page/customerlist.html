@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.min.css">
+	<link rel="stylesheet" href="../css/userlist.css">
+    <link rel="stylesheet" href="../css/page.css">
+</head>
+<body>
+	<header>
+        <div></div>
+        <div class="select">
+            <select class="department">
+                <option value="">全部</option>
+                <option value="重点客户">重点客户</option>
+                <option value="一般客户">一般客户</option>
+                <option value="放弃客户">放弃客户</option>
+            </select>
+        </div>
+        <di class="search">
+            <input type="text" placeholder="客户综合信息模糊查询" class="search ipt searchbox">
+        </di>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr class="firstline">
+                    <th><input type="checkbox" class="checkall"></th>
+                    <th><span>姓名</span></th>
+                    <th><span>性别</span></th>
+                    <th><span>邮箱</span></th>
+                    <th><span>电话</span></th>
+                    <th><span>微信</span></th>
+                    <th><span>QQ</span></th>
+                    <th><span>类型</span></th>
+                    <th><span>率属人</span></th>
+                    <th><span>地址</span></th>
+                    <th><span>操作</span></th>
+                </tr>
+            </thead>
+            <tbody  class="container">
+				<!-- <tr>
+					<td><input type="checkbox" class="checkall"></td>
+					<td>张三</td>
+					<td>男</td>
+					<td>zhangsan@qq.com</td>
+					<td>12565984568</td>
+					<td>zhangsan_big</td>
+					<td>12365894</td>
+					<td>重要客户</td>
+					<td>珠峰培训</td>
+					<td>北京市昌平区回龙观东大街</td>
+					<td>
+						<span class="operate"><a href="javascript:;">编辑</a></span>
+                        <span class="operate"><a href="javascript:;">删除</a></span>
+                        <span class="operate"><a href="javascript:;">回访记录</a></span>
+					</td>
+				</tr> -->
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <div class="pageBox">
+            <!-- <a href="javascript:;">上一页</a>
+            <ul class="pageNum">
+                <li class="active">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <a href="javascript:;">下一页</a> -->
+	    </div>
+    </footer>
+    
+</body>
+<script src="../js/axios.js"></script>
+<script src="../js/axios.min.js"></script>
+<script src="../js/axios.default.js"></script>
+<script src="../js/tool.js"></script>
+<script src="../js/qs.js"></script>
+<script src="../js/customerlist.js"></script>
+</html>
